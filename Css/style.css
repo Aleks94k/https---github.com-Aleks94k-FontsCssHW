@@ -1,12 +1,4 @@
-font-face {
-    font-family: "Caveat";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap; 
-    src: local("Caveat"), 
-    url("/Fonts/Caveat/Caveat-VariableFont_wght.woff") format("woff");
-           
+
+    body {
+        background-color: silver;
     }
-    * {
-        font-family: "Ceveat" , sans-serif;
-      }

@@ -1,3 +1,46 @@
-font-family: 'League Gothic', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Oswald', sans-serif;
+font-face {
+    font-family: "Caveat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; 
+    src: local("Caveat"), 
+    url("/Fonts/Caveat/Caveat-VariableFont_wght.woff") format("woff");
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-weight: 400;
+    font-size: 100px;
+    text-shadow: 6px 8px 13px rgb(17 45 206);
+}
+h2 {
+    font-family: "Ceveat" , sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.text_first {
+    text-decoration-color: blue;
+    font-family: "Caveat";
+    font-size: 30px;
+    font-weight: 400;
+    text-indent: 50px;
+    color: rgb(53, 28, 77);
+}
+.text_two{
+    text-decoration-color: rgb(23, 212, 33);
+    font-family: 'League Gothic';
+    font-size: 30px;
+    font-weight: 400;
+    text-indent: 50px;
+    color: rgb(85, 21, 30);
+    text-align: center;
+}
+.text_three {
+    text-decoration-color: rgb(23, 212, 33);
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: 400;
+    text-indent: 50px;
+    color: rgb(182, 192, 36);
+    text-align: center;
+}
