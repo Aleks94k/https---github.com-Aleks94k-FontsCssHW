@@ -4,7 +4,10 @@ font-face {
     font-weight: 400;
     font-display: swap; 
     src: local("Caveat"), 
-    url("/Fonts/Caveat/Caveat-VariableFont_wght.woff") format("woff");
+    url("/fonts/Caveat/Caveat-VariableFont_wght.woff") format("woff");
+}
+body {
+    background-color: silver;
 }
 h1 {
     font-family: 'Lobster', cursive;
@@ -20,7 +23,7 @@ h2 {
 }
 .text_first {
     text-decoration-color: blue;
-    font-family: "Caveat";
+    font-family: 'Lobster', cursive;
     font-size: 30px;
     font-weight: 400;
     text-indent: 50px;
